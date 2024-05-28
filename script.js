@@ -401,6 +401,7 @@ btnLogin.addEventListener('click', function (e) {
     containerApp.style.opacity = 1;
     displayMovements(currentAccount.movements);
   } else {
+    alert('wrong credentials:');
     console.log('check the credentials again');
     containerApp.style.opacity = 0;
   }
